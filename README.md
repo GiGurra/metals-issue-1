@@ -20,11 +20,12 @@ java.util.concurrent.CompletionException: java.lang.NullPointerException
     at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
     at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
     at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.NullPointerException```
+Caused by: java.lang.NullPointerException
+```
+
 Seems like it is triggered only if the type in question actually exists, but you have not imported it yet.
 
 Example code from a minimal scala 2.13.10 project triggering it
-```
 
 ```
 object Main extends App {
