@@ -1,6 +1,5 @@
-import java.util.concurrent.atomic.AtomicLong
 
 object Main extends App {
-  def foofoo: Blah = ???
+  def foofoo: AtomicLong = ???
   println("Hello, World!")
 }

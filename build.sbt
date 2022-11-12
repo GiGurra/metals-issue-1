@@ -13,7 +13,7 @@ scalaVersion := "2.13.10"
 
 // It's possible to define many kinds of settings, such as:
 
-name := "hello-world"
+name := "metals-issue-1"
 organization := "com.github.gigurra"
 version := "1.0"
 
