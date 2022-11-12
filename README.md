@@ -42,3 +42,5 @@ object Main extends App {
   println("Hello, World!")
 }
 ```
+
+https://github.com/scalameta/metals/issues/4636
