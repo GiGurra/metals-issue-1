@@ -24,6 +24,7 @@ Caused by: java.lang.NullPointerException```
 Seems like it is triggered only if the type in question actually exists, but you have not imported it yet.
 
 Example code from a minimal scala 2.13.10 project triggering it
+```
 
 ```
 object Main extends App {
